@@ -7,6 +7,8 @@ import '@splidejs/react-splide/css';
 import Skeleton from "../UI/Skeleton";
 import ExpiryDate from '../ExpiryDate'
 
+// Had to redo pull request //
+
 const NewItems = () => {
   const [details, setDetails] = useState([])
   const [loading, setLoading] = useState(true)
