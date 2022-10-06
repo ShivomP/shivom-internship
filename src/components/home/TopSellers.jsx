@@ -30,7 +30,7 @@ const TopSellers = () => {
             </div>
           </div>
           <div className="col-md-12">
-            <ol className="author_list">
+            <ol  className="author_list">
               {new Array(1).fill(0).map((_, index) => (
                 (details.map(detail => (
                   <>
@@ -41,7 +41,7 @@ const TopSellers = () => {
                       borderRadius="10px"
                       />
                     ) : (
-                      <li key={index}>
+                      <li data-aos="fade-down" key={index}>
                         <div className="author_list_pp">
                           <Link to={`/author/${detail.authorId}`}>
                             <img
