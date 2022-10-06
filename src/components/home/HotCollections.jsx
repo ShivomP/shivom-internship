@@ -59,7 +59,7 @@ const HotCollections = () => {
                       borderRadius="20px"
                       />
                     ) : (
-                      <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12" key={index}>
+                      <div data-aos="fade-left" className="col-lg-3 col-md-6 col-sm-6 col-xs-12" key={index}>
                         <div className="nft_coll" style={{width: "18.5rem"}}>
                           <div className="nft_wrap">
                             <Link to={`/item-details/${detail.nftId}`}>

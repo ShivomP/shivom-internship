@@ -60,7 +60,7 @@ const NewItems = () => {
                     borderRadius="20px"
                     />
                   ) : (
-                    <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12" key={index}>
+                    <div data-aos="fade-right" className="col-lg-3 col-md-6 col-sm-6 col-xs-12" key={index}>
                       <div className="nft__item" style={{width: "18.5rem"}}>
                         <div className="author_list_pp">
                           <Link
